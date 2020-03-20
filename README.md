@@ -24,7 +24,7 @@
 
 ### 初始界面
 
-<img src="./Pictures/1.png" alt="1" style="zoom: 67%;" />
+<img src="./Pictures/1.png" alt="1" style="zoom: 33%;" />
 
 * 按下 `S` 或点击开始游戏可进入游戏界面
 
@@ -44,17 +44,17 @@
 
 * 在用户未输入用户名时，会跳出相应的的提示，提醒用户
 
-<img src="./Pictures/2.png" style="zoom:50%;" /><img src="./Pictures/3.png" alt="3" style="zoom:50%;" />
+<img src="./Pictures/2.png" style="zoom: 33%;" /><img src="./Pictures/3.png" alt="3" style="zoom:50%;" /><img src="./Pictures/2.png" style="zoom: 33%;" /><img src="./Pictures/3.png" alt="3" style="zoom:50%;" />
 
 * 按下方向键 `↑ ↓/← →` 或点击相应的 `+/-` 可调整初始难度和行数
 
 * 按下`Enter`或点击**GO**可开始游戏（见下图，图为鼠标点击**GO**的效果）
 
-<img src="./Pictures/4.png" alt="4" style="zoom: 67%;" />
+<img src="./Pictures/4.png" alt="4" style="zoom: 33%;" />
 
 ### 游戏界面
 
-<img src="./Pictures/5.png" alt="5" style="zoom:50%;" /><img src="./Pictures/6.png" alt="6" style="zoom:50%;" />
+<img src="./Pictures/5.png" alt="5" style="zoom: 33%;" /><img src="./Pictures/6.png" alt="6" style="zoom:50%;" /><img src="./Pictures/5.png" alt="5" style="zoom: 33%;" /><img src="./Pictures/6.png" alt="6" style="zoom:50%;" />
 
 （上左图为一般开始游戏，上右图为初始行数为10的情况的开局）
 
@@ -72,7 +72,7 @@
 
 * 右下角实时显示当前时间，暂停时三角符号会闪动
 
- <img src="./Pictures/7.png" alt="7" style="zoom:50%;" /><img src="./Pictures/8.png" alt="8" style="zoom:50%;" />
+ <img src="./Pictures/7.png" alt="7" style="zoom: 33%;" /><img src="./Pictures/8.png" alt="8" style="zoom:50%;" /><img src="./Pictures/7.png" alt="7" style="zoom: 33%;" /><img src="./Pictures/8.png" alt="8" style="zoom:50%;" />
 
 ### 工具栏界面
 
