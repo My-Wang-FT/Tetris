@@ -1,0 +1,58 @@
+# Project: Tetris
+# Makefile created by Dev-C++ 5.5.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o libgraphics/exceptio.o libgraphics/genlib.o libgraphics/graphics.o libgraphics/random.o libgraphics/simpio.o libgraphics/strlib.o model.o data.o ctrl.o draw.o
+LINKOBJ  = main.o libgraphics/exceptio.o libgraphics/genlib.o libgraphics/graphics.o libgraphics/random.o libgraphics/simpio.o libgraphics/strlib.o model.o data.o ctrl.o draw.o
+LIBS     = -L"E:/Dev-Cpp/MinGW32/lib" -L"E:/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -mwindows -g3
+INCS     = -I"E:/Dev-Cpp/MinGW32/include"
+CXXINCS  = -I"E:/Dev-Cpp/MinGW32/include" -I"E:/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.7.2/include/c++"
+BIN      = Tetris.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+libgraphics/exceptio.o: libgraphics/exceptio.c
+	$(CC) -c libgraphics/exceptio.c -o libgraphics/exceptio.o $(CFLAGS)
+
+libgraphics/genlib.o: libgraphics/genlib.c
+	$(CC) -c libgraphics/genlib.c -o libgraphics/genlib.o $(CFLAGS)
+
+libgraphics/graphics.o: libgraphics/graphics.c
+	$(CC) -c libgraphics/graphics.c -o libgraphics/graphics.o $(CFLAGS)
+
+libgraphics/random.o: libgraphics/random.c
+	$(CC) -c libgraphics/random.c -o libgraphics/random.o $(CFLAGS)
+
+libgraphics/simpio.o: libgraphics/simpio.c
+	$(CC) -c libgraphics/simpio.c -o libgraphics/simpio.o $(CFLAGS)
+
+libgraphics/strlib.o: libgraphics/strlib.c
+	$(CC) -c libgraphics/strlib.c -o libgraphics/strlib.o $(CFLAGS)
+
+model.o: model.c
+	$(CC) -c model.c -o model.o $(CFLAGS)
+
+data.o: data.c
+	$(CC) -c data.c -o data.o $(CFLAGS)
+
+ctrl.o: ctrl.c
+	$(CC) -c ctrl.c -o ctrl.o $(CFLAGS)
+
+draw.o: draw.c
+	$(CC) -c draw.c -o draw.o $(CFLAGS)

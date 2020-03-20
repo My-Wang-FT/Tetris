@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libgraphics">
+      <UniqueIdentifier>{9ce7400c-035b-42ee-a8ee-b77d560b6c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\头文件">
+      <UniqueIdentifier>{72eaad56-1e3c-4b3a-ad4c-03ef65caeb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\源文件">
+      <UniqueIdentifier>{7198cd5a-0b3d-4481-a0ef-e2652e8cb60b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libgraphics\exceptio.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\genlib.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\graphics.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\random.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\simpio.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libgraphics\strlib.c">
+      <Filter>Libgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\ctrl.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\data.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\draw.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\main.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\model.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libgraphics\exception.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\extgraph.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\gcalloc.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\genlib.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\graphics.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\random.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\simpio.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libgraphics\strlib.h">
+      <Filter>Libgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\head\ctrl.h">
+      <Filter>资源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\head\data.h">
+      <Filter>资源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\head\draw.h">
+      <Filter>资源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\head\main.h">
+      <Filter>资源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\head\model.h">
+      <Filter>资源文件\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
