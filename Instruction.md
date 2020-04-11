@@ -59,11 +59,11 @@
    > 宏名体现常数的具体含义
 
    ```c
-   #define HEIGHT 20	      // 游戏区高度 
-   #define WIDTH 10		   // 游戏区宽度 
-   #define BLOCK_TYPE 19	// 基础方块种类 
-   #define SIZE 4			   // 每个方块存储区域大小 
-   #define NUB 9			   // 用户名数组大小
+   #define HEIGHT 20       // 游戏区高度 
+   #define WIDTH 10        // 游戏区宽度 
+   #define BLOCK_TYPE 19   // 基础方块种类 
+   #define SIZE 4          // 每个方块存储区域大小 
+   #define NUB 9           // 用户名数组大小
    // 键盘回调所用key值 
    #define Key_Up 38
    #define Key_Down 40
@@ -116,11 +116,11 @@
 
      ```c
      typedef struct Con_node{
-     	int num;					   // 排名      
-     	char name[NUB];			// 用户名 
-     	int score;					// 分数 
-     	int level;					// 难度 
-     	int c_line;					// 消除行数 
+     	int num;                // 排名      
+     	char name[NUB];         // 用户名 
+     	int score;              // 分数 
+     	int level;              // 难度 
+     	int c_line;             // 消除行数 
      	struct Con_node * next; // 下一个
      } Con；
      ```
