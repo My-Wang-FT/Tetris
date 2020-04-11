@@ -24,7 +24,7 @@
    //信号变量，判断是否在此页面
    #define Is_Menu 0		// 图形界面指示变量，1 表示菜单界面，0 表示游戏界面 
    #define In_Game 1		// 游戏信号变量，1 表示正在进行游戏，0 表示游戏未运行 
-   #define Read_Name 2		// 用户名信号变量，1 表示读入用户名，0 表示开始游戏
+   #define Read_Name 2	// 用户名信号变量，1 表示读入用户名，0 表示开始游戏
    #define Is_Tool 3		// 工具栏指示变量 ，1 表示在工具栏界面，0 表示不在工具栏界面
    #define Is_End 4		// 游戏结束信号变量，1 表示游戏结束，0 表示游戏没有结束
    #define Is_Rank 5		// 排行榜指示变量，1 表示在排行榜界面，0 表示不在排行榜界面 
@@ -34,15 +34,15 @@
    #define Menu_Ret1 7		// 开始游戏 
    #define Menu_Ret2 8		// 继续游戏 
    #define Menu_Ret3 9		// 排行榜 
-   #define Menu_Ret4 10	// 帮助 
-   #define Menu_Ret5 11	// 退出游戏
+   #define Menu_Ret4 10	   // 帮助 
+   #define Menu_Ret5 11	   // 退出游戏
    
    //工具栏界面交互绘图变量，对应工具栏界面五个选项框
-   #define Tool_Ret1 12	// 新游戏
-   #define Tool_Ret2 13	// 继续游戏
-   #define Tool_Ret3 14	// 排行榜
-   #define Tool_Ret4 15	// 帮助
-   #define Tool_Ret5 16	// 保存并退出 
+   #define Tool_Ret1 12	   // 新游戏
+   #define Tool_Ret2 13	   // 继续游戏
+   #define Tool_Ret3 14	   // 排行榜
+   #define Tool_Ret4 15	   // 帮助
+   #define Tool_Ret5 16	   // 保存并退出 
    
    #define Back_Ret 17		// 共用交互绘图变量，对应排行榜和帮助界面的返回按钮
    
@@ -59,11 +59,11 @@
    > 宏名体现常数的具体含义
 
    ```c
-   #define HEIGHT 20		// 游戏区高度 
-   #define WIDTH 10		// 游戏区宽度 
+   #define HEIGHT 20	      // 游戏区高度 
+   #define WIDTH 10		   // 游戏区宽度 
    #define BLOCK_TYPE 19	// 基础方块种类 
-   #define SIZE 4			// 每个方块存储区域大小 
-   #define NUB 9			// 用户名数组大小
+   #define SIZE 4			   // 每个方块存储区域大小 
+   #define NUB 9			   // 用户名数组大小
    // 键盘回调所用key值 
    #define Key_Up 38
    #define Key_Down 40
@@ -116,12 +116,12 @@
 
      ```c
      typedef struct Con_node{
-     	int num;					// 排名      
-     	char name[NUB];				// 用户名 
+     	int num;					   // 排名      
+     	char name[NUB];			// 用户名 
      	int score;					// 分数 
      	int level;					// 难度 
      	int c_line;					// 消除行数 
-     	struct Con_node * next;		// 下一个
+     	struct Con_node * next; // 下一个
      } Con；
      ```
 
